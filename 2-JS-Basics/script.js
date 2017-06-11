@@ -330,3 +330,25 @@ while(i < names.length){
 //end of basics
 
 */
+
+////////////////////////////////////////////
+//coding challenge 2
+
+var years = [1990, 1992, 1994, 1996];
+var ages = [];
+
+for(var i=0; i<4; i++){
+    var ages[i] = 2016 - years[i];
+}
+
+for (var i=0; i<ages.length ; i++){
+    if(ages[i]>=18){
+        console.log("Person is of full age");
+    }else{
+        console.log("Person is not full age")
+    }
+}
+
+function printFullAge(years){
+
+}
